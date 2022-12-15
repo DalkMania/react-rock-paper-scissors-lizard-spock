@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, 
+*:before, 
+*:after { 
+    box-sizing: border-box; 
+}
+
+body {
+    @apply font-body bg-gradient-background;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    position: relative;
+    color:#FFF;
+}
